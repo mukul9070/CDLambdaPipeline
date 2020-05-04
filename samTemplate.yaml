@@ -3,7 +3,7 @@ Transform: "AWS::Serverless-2016-10-31"
 Description: CD Test Lambda
 
 Resources:
-  index_photos_test:
+  indexTest:
     Type: "AWS::Serverless::Function"
     Properties:
       Handler: lambda_function.lambda_handler
@@ -22,7 +22,7 @@ Resources:
         SubnetIds:
           - subnet-08979b3997b5c4361
           - subnet-078adfb0f14dee615
-  search_photos_test:
+  searchTest:
     Type: "AWS::Serverless::Function"
     Properties:
       Handler: lambda_function.lambda_handler
